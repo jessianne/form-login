@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #2222FF;
+    color: black;
+}
+
+#principal{
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 520px;
+    margin-left: 175px;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+
+#formulario{
+    padding-left: 50px;
+    line-height: 45px;
+}
+
+#logo-curso{
+    width: 200px;
+    padding-top: 15px;
+    margin-left: -10px;
+}
+
+h1{
+    font-family: 'Roboto';
+    color: #1C0051;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#formulario div label{
+    font-family: 'Asap';
+    font-size: 14px;
+}
+
+.entrada-texto{
+    width: 400px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 20px;
+    padding-left: 10px;
+    color: #757575;
+    border: none;
+    background-color: #E8EFF9;
+}
+
+div span label{
+    border-color: 1px solid black;
+    border-radius: 50px;
+}
+
+#botao-entrar{
+    width: 400px;
+    height: 60px;
+    border-radius: 30px;     
+    font-size: 18px;
+    font-family: 'Asap'; 
+    background-color: #070fe9;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  #botao-entrar:hover{
+    background-color: #070fe9e7;
+  }
+
+  div a{
+    text-decoration: none;
+    color: #2E27FF;
+    font-family: 'Asap';
+    font-size: 14px;
+  }
